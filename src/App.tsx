@@ -1,5 +1,5 @@
 import React from "react";
-import CounterContainer from "./components/atoms/CounterContainer";
+import CounterContainer from "./components/templates/CounterContainer/CounterContainer";
 
 function App() {
   return (

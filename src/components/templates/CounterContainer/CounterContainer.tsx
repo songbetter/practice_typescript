@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import React from "react";
-import { decreaseNumber, increaseNumber } from "../../modules/counter";
-import { RootState } from "../../modules";
-import CounterApp from "./Counter/CounterApp";
+import { decreaseNumber, increaseNumber } from "../../../modules/counter";
+import { RootState } from "../../../modules";
+import CounterApp from "../../atoms/Counter/CounterApp";
 
 const CounterContainer = () => {
   const dispatch = useDispatch();
